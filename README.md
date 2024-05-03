@@ -1,4 +1,4 @@
-# try-cohere-command-R-plus
+# hello-cohere-command-R-plus
 ## install
 ```
 pipenv install
@@ -6,5 +6,5 @@ pipenv install
 
 ## execute
 ```
-pipenv run --quiet python main.py
+pipenv --quiet run python main.py
 ```
