@@ -1,6 +1,7 @@
 import cohere
 import os
 
+# https://docs.cohere.com/docs/streaming
 co = cohere.Client(os.getenv("COHERE_API_KEY"))
 message = "hello"
 for event in co.chat_stream(message=message, model="command-r-plus"):
